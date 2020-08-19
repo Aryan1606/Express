@@ -4,12 +4,12 @@ const app = express();
 const routing = require("./routes/route");
 
 app.use(express.urlencoded({ extended: false }));
-
 app.set("view engine", "ejs");
 
-const db = require("./config/keys").mongoURI;
+const db = "mongodb://localhost:27017/gorefer";
 
-//Connecting to Mongo DB Using MongoDB Atlas.
+//require("./config/keys").mongoURI;
+//Connecting to Mongo DB Using MongoDB Atlas
 mongoose
   .connect(db, {
     useNewUrlParser: true,
