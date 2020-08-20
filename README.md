@@ -7,8 +7,8 @@
  
 ## RUN
 
- In the terminal "C:\WINDOWS\System32\"  enter "mongod" to run the mongoDB client on your machine, you should have MongoDB installed .
+ * In the terminal "C:\WINDOWS\System32\"  enter "mongod" to run the mongoDB client on your machine, you should have MongoDB installed .
  
- In another Terminal go to the root directory of the folder of the repositroy and then.
+ * In another Terminal go to the root directory of the folder of the repositroy and then.
  
  #### node server.js
