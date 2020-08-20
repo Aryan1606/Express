@@ -11,4 +11,4 @@
  
  * In another Terminal go to the root directory of the folder of the repositroy and then run this.
  
-   #### node server.js
+   #### "node server.js"
